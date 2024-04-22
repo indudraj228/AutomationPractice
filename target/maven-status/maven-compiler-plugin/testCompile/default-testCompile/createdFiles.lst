@@ -1,0 +1,9 @@
+com\CRM\Pages\HomePage.class
+SeleniumGrid\GridAmazoneTest.class
+com\CRM\Pages\CustomersPage.class
+com\CRM\TestCases\LoginPageTest.class
+com\CRM\Pages\LoginPage.class
+com\CRM\TestCases\BaseClass.class
+com\CRM\TestCases\CustomersPageTest.class
+SeleniumGrid\CrossBrowserTest.class
+com\CRM\TestCases\HomePageTest.class
