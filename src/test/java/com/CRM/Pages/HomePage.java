@@ -3,6 +3,8 @@ package com.CRM.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import config.Utility;
+
 public class HomePage
 {   
 	//Encapsulation=data+method
@@ -24,7 +26,8 @@ public class HomePage
 	   return driver.getTitle();	
 	}
 	public void clickSignIn() 
-	{
+	{   Utility.capture(driver);
 		driver.findElement(signIn).click();
+		 Utility.capture(driver);
 	}
 }
