@@ -11,16 +11,6 @@
       </class> <!-- SeleniumGrid.CrossBrowserTest -->
     </classes>
   </test> <!-- Test3(failed) -->
-  <test thread-count="5" parallel="tests" name="Test2(failed)" verbose="0">
-    <parameter name="browsername" value="edge"/>
-    <classes>
-      <class name="SeleniumGrid.CrossBrowserTest">
-        <methods>
-          <include name="browserTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- SeleniumGrid.CrossBrowserTest -->
-    </classes>
-  </test> <!-- Test2(failed) -->
   <test thread-count="5" parallel="tests" name="Test1(failed)" verbose="0">
     <parameter name="browsername" value="chrome"/>
     <classes>
@@ -31,4 +21,14 @@
       </class> <!-- SeleniumGrid.CrossBrowserTest -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test2(failed)" verbose="0">
+    <parameter name="browsername" value="edge"/>
+    <classes>
+      <class name="SeleniumGrid.CrossBrowserTest">
+        <methods>
+          <include name="browserTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SeleniumGrid.CrossBrowserTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
